@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_9PA3gN7oEeSuKfNYVZOsHA" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_9PA3gd7oEeSuKfNYVZOsHA" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_9PA3gt7oEeSuKfNYVZOsHA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_9PA3g97oEeSuKfNYVZOsHA">
+      <owner xmi:type="uml:Model" href="model.uml#_9MoR4N7oEeSuKfNYVZOsHA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_9MoR4N7oEeSuKfNYVZOsHA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_9PgmwN7oEeSuKfNYVZOsHA" type="PapyrusUMLComponentDiagram" name="NewDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_9Pgmwd7oEeSuKfNYVZOsHA" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_9Pgmwt7oEeSuKfNYVZOsHA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_9Pgmw97oEeSuKfNYVZOsHA">
+      <owner xmi:type="uml:Model" href="model.uml#_9MoR4N7oEeSuKfNYVZOsHA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_9MoR4N7oEeSuKfNYVZOsHA"/>
+  </notation:Diagram>
+</xmi:XMI>

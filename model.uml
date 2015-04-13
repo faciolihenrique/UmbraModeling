@@ -1,4 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9MoR4N7oEeSuKfNYVZOsHA" name="model">
-  <packagedElement xmi:type="uml:Class" xmi:id="_L-ZAkN7qEeSuKfNYVZOsHA" name="Fantasma"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9MoR4N7oEeSuKfNYVZOsHA" name="Umbra">
+  <packagedElement xmi:type="uml:Component" xmi:id="_NldEAN71EeSuKfNYVZOsHA" name="Mapa">
+    <packagedElement xmi:type="uml:Component" xmi:id="_YohI0N71EeSuKfNYVZOsHA" name="Component1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_izgWIN71EeSuKfNYVZOsHA" name="IMap">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_2ZuSUN72EeSuKfNYVZOsHA" name="IMap">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_2ZuSUd72EeSuKfNYVZOsHA" name="initialPosition">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_2ZuSUt72EeSuKfNYVZOsHA" name="initialPosition" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_2ZuSU972EeSuKfNYVZOsHA" name="getPosition">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_2ZuSVN72EeSuKfNYVZOsHA" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+      </ownedOperation>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_fbPlYOFcEeSUUYOT82ZBbw" name="CopyOf_IMap_1">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_fbPlYeFcEeSUUYOT82ZBbw" name="IMap">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_fbPlYuFcEeSUUYOT82ZBbw" name="initialPosition">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_fbPlY-FcEeSUUYOT82ZBbw" name="initialPosition" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_fbPlZOFcEeSUUYOT82ZBbw" name="getPosition">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_fbPlZeFcEeSUUYOT82ZBbw" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+        </ownedOperation>
+      </nestedClassifier>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fbPlZuFcEeSUUYOT82ZBbw" name="initialPosition"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fbPlZ-FcEeSUUYOT82ZBbw" name="getPosition">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fbPlaOFcEeSUUYOT82ZBbw" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fbPlaeFcEeSUUYOT82ZBbw" type="_46ov4N72EeSuKfNYVZOsHA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fbPlauFcEeSUUYOT82ZBbw" name="move" visibility="package">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fbPla-FcEeSUUYOT82ZBbw" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+      </ownedOperation>
+    </nestedClassifier>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nwJPQN71EeSuKfNYVZOsHA" name="initialPosition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8xwn4N71EeSuKfNYVZOsHA" name="getPosition">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vJ-HEN72EeSuKfNYVZOsHA" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HutoMN73EeSuKfNYVZOsHA" type="_46ov4N72EeSuKfNYVZOsHA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-Fl6MOFZEeSUUYOT82ZBbw" name="move" visibility="package">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_A876wOFaEeSUUYOT82ZBbw" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NzTB0OFdEeSUUYOT82ZBbw" name="getMap">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NzTB0eFdEeSUUYOT82ZBbw" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NzTB0uFdEeSUUYOT82ZBbw" type="_46ov4N72EeSuKfNYVZOsHA" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZIOn0OFfEeSUUYOT82ZBbw" name="range">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fLg_8OFfEeSUUYOT82ZBbw" type="_46ov4N72EeSuKfNYVZOsHA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_D-3u0N72EeSuKfNYVZOsHA" name="iPosition">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KyQuMN72EeSuKfNYVZOsHA" name="moveNorth" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_g7w78N72EeSuKfNYVZOsHA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NbLRMN72EeSuKfNYVZOsHA" name="moveEast">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_euXQQN72EeSuKfNYVZOsHA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Nl2QIN72EeSuKfNYVZOsHA" name="moveWest" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XROJQN72EeSuKfNYVZOsHA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NqgtsN72EeSuKfNYVZOsHA" name="moveSouth">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_T4t8YN72EeSuKfNYVZOsHA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_46ov4N72EeSuKfNYVZOsHA" name="iCell" visibility="protected">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_46ov4d72EeSuKfNYVZOsHA" name="IMap">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_46ov4t72EeSuKfNYVZOsHA" name="initialPosition">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_46ov4972EeSuKfNYVZOsHA" name="initialPosition" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_46ov5N72EeSuKfNYVZOsHA" name="getPosition">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_46ov5d72EeSuKfNYVZOsHA" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+      </ownedOperation>
+    </nestedClassifier>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nVvgUN73EeSuKfNYVZOsHA" name="remove" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9K0WMN73EeSuKfNYVZOsHA" type="_1u-2wN73EeSuKfNYVZOsHA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CgHaMOFZEeSUUYOT82ZBbw" name="receive" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CgHaMeFZEeSUUYOT82ZBbw" type="_1u-2wN73EeSuKfNYVZOsHA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ho-8AOFaEeSUUYOT82ZBbw" name="getEntety" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ho-8AeFaEeSUUYOT82ZBbw" type="_1u-2wN73EeSuKfNYVZOsHA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ICKRAOFaEeSUUYOT82ZBbw" name="getDoor">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ICKRAeFaEeSUUYOT82ZBbw" type="_FTHTAN74EeSuKfNYVZOsHA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_s7Q00OFcEeSUUYOT82ZBbw" name="getDescription" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_s7Q00eFcEeSUUYOT82ZBbw" type="_1u-2wN73EeSuKfNYVZOsHA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1u-2wN73EeSuKfNYVZOsHA" name="Entity"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FTHTAN74EeSuKfNYVZOsHA" name="Room"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_kVpp4OFcEeSUUYOT82ZBbw" name="drawMap" visibility="package">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_kVpp4eFcEeSUUYOT82ZBbw" name="IMap">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kVpp4uFcEeSUUYOT82ZBbw" name="initialPosition">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kVpp4-FcEeSUUYOT82ZBbw" name="initialPosition" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kVpp5OFcEeSUUYOT82ZBbw" name="getPosition">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kVpp5eFcEeSUUYOT82ZBbw" type="_D-3u0N72EeSuKfNYVZOsHA"/>
+      </ownedOperation>
+    </nestedClassifier>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kVpp5uFcEeSUUYOT82ZBbw" name="draw">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ze79MOFcEeSUUYOT82ZBbw" type="_izgWIN71EeSuKfNYVZOsHA"/>
+    </ownedOperation>
+  </packagedElement>
 </uml:Model>
